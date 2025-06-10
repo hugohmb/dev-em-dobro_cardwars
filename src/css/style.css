@@ -1,0 +1,197 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+    background-color: #ffee00;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 60px;    
+}
+
+.logosite {
+    max-width: 100px;
+}
+
+.container {
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+.container .produtos {
+    color: #e41580;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+.container .filtros {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que os filtros se ajustem em telas menores */
+    margin-bottom: 32px;
+    margin-right: 40px; /* desloca lateralmente a categoria*/
+}
+
+.container .categorias-cartas, .container .preco-cartas {
+    display: flex;
+    flex-direction: column;    
+    width: 28%; /* Ajustado para acomodar 3 colunas de filtros + botão */
+    
+}
+
+.container .ordenar-cartas { /* Adicionado .ordenar-cartas aqui */
+    display: flex;
+    flex-direction: column;
+    width: 28%; /* Ajustado para acomodar 3 colunas de filtros + botão */
+    margin-bottom: 16px; /* Adicionado um margin-bottom para melhor espaçamento vertical */
+}
+
+.container label{
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #e41580;
+    margin-bottom: 10px;
+}
+
+.container .categorias-cartas select, .container .preco-cartas input {
+    padding: 16px 13px;
+    border-radius: 5px;
+    border: 2px solid #e41580;
+    background-color: #F2EEFA;
+    color: #130234;
+    height: 52px;
+}
+
+.container select:focus, .container input:focus, .container  select:focus-visible, .container  input:focus-visible {
+    outline: none;
+}
+
+.container select.categoria {
+    appearance: none;
+    background: url(../imagens/seta-para-baixo.png) 97% center no-repeat;
+}
+
+.container .filtros .btn-filtrar {
+    margin-bottom: 16px; /* Adicionado um margin-bottom para melhor espaçamento vertical */    
+    border: none;
+    background-color: #e41580; /*botão aplicar filtro*/
+    color: #EDEDED;
+    padding: 16px 32px;
+    font-weight: 500;
+    align-self: end;
+    width: 177px;
+    height: 52px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transform: 0.3s;
+    border-radius: 5px;
+}
+
+.container .filtros .btn-filtrar:hover {
+    background-color: #b91469;
+}
+
+.container .cartas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /*espaço entre as cartas*/
+    margin-top: 32px;
+
+}
+
+.container .cartas .carta{
+    max-width: 500px;
+    background-color: #EDEDED;
+    color: #0E0027;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);
+}
+
+.container .carta img {
+    width: 100%;
+    padding: 15px;
+}
+
+.container .cartas .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cobnteiner .cartas .informacoes .nome-personagem{
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.container .carta .informacoes .categoria {
+    color: #7E7E7E;
+    font-weight: 700;
+}
+
+.container .carta .informacoes .preco {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #e41580;
+}
+
+.container .carta .informacoes .btn-comprar {
+    color: #EDEDED;
+    background-color: #12b7f8;
+    padding: 16px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    transform: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    /*arredondar as bordas*/
+}
+
+.container .carta .informacoes .btn-comprar:hover {
+    background-color: #11a1da;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #12b7f8;
+    color: #EDEDED;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.esconder{
+    display: none;
+}
+
+.mostrar{
+    display: block;
+}
+
+.container .filtros .btn-filtrar {
+    /* ... (seu código existente) ... */
+    align-self: flex-end; /* Alinha o botão ao final da linha */
+    margin-top: auto; /* Empurra o botão para baixo se houver espaço vertical */
+}
+
+
+
+.container .ordenar-cartas select {
+    padding: 16px 13px;
+    border-radius: 5px;
+    border: 2px solid #e41580;
+    background-color: #F2EEFA;
+    color: #130234;
+    height: 52px;
+    appearance: none; /* Remove o estilo padrão do select */
+    background: url(../imagens/seta-para-baixo.png) 97% center no-repeat; /* Adiciona a seta */
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana do zero ao programador contratado - Magic IA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logosite" src="./src/imagens/logo.png" alt="Logo da Magic IA" />
+    </header>
+    <main class="container">
+        <h1 class="produtos">Produtos</h1>
+        <div class="filtros">
+            <div class="categorias-cartas">
+                <label for="categoria">Categoria</label>
+                <select id="categoria" class="categoria">
+                    <option value="">Selecione uma categoria</option>
+                    <option value="Comum">Comum</option>
+                    <option value="Incomum">Incomum</option>
+                    <option value="Rara">Rara</option>
+                    <option value="Lendária">Lendária</option>
+                    <option value="Épica">Épica</option>
+                </select>
+            </div>
+
+            
+            
+            <div class="preco-cartas">
+                <label for="preco">Preço máximo (R$)</label>
+                <input type="text" id="preco" class="preco" placeholder="Digite o preço máximo" />
+            </div>
+            
+            
+            
+            <div class="ordenar-cartas">
+                <label for="ordenacao">Ordenar por</label>
+                <select id="ordenacao" class="ordenacao">
+                    <option value="">Nenhuma</option>
+                    <option value="nome_asc">Nome (A-Z)</option>
+                    <option value="nome_desc">Nome (Z-A)</option>
+                    <option value="preco_asc">Preço (Menor ao Maior)</option>
+                    <option value="preco_desc">Preço (Maior ao Menor)</option>
+                </select>
+            </div>
+
+
+            <button class="btn-filtrar">Aplicar filtros</button>
+        </div>
+        <ul class="cartas">
+        </ul>
+    </main>
+    <footer class="rodape">@2025 - Todos os direitos reservados</footer>
+    <script src="./src/js/data.js"></script>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
