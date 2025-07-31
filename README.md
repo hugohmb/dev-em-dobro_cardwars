@@ -36,23 +36,6 @@ CSS3: Estilização e responsividade.
 
 JavaScript (ES6+): Lógica de carregamento dinâmico, filtros e ordenação de dados.
 
-📁 Estrutura do Projeto
-...
-├── index.html
-├── src/
-│   ├── css/
-│   │   ├── reset.css
-│   │   ├── responsivo.css
-│   │   └── style.css
-│   ├── imagens/
-│   │   ├── logo.png
-│   │   ├── seta-para-baixo.png
-│   │   └── carta-*.png (suas imagens das cartas)
-│   └── js/
-│       ├── data.js       # Dados das cartas
-│       └── index.js      # Lógica principal da aplicação
-└── README.md
-
 ⚙️ Como Rodar o Projeto
 Clone o repositório:
 
