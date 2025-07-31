@@ -1,3 +1,5 @@
+![Catálogo de Cartas](https://github.com/hugohmb/dev-em-dobro_cardwars/blob/main/Captura%20de%20tela%202025-07-31%20153425.png?raw=true)
+
 🃏 Catálogo de Cartas Adventure Time Card Wars
 Este projeto é um catálogo interativo de cartas do jogo "Adventure Time Card Wars", desenvolvido como um aprimoramento de um desafio da Imersão Dev da Dev em Dobro.
 
