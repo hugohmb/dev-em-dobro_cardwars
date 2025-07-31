@@ -38,18 +38,10 @@ CSS3: Estilização e responsividade.
 
 JavaScript (ES6+): Lógica de carregamento dinâmico, filtros e ordenação de dados.
 
-⚙️ Como Rodar o Projeto
-Clone o repositório:
+🔗 Acesse o Site
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-Navegue até a pasta do projeto:
-
-cd seu-repositorio
-
-Abra o arquivo index.html no seu navegador (simplesmente clicando duas vezes nele ou arrastando para a janela do navegador).
-
-Não é necessário nenhum servidor web complexo para rodar este projeto localmente, pois ele é puramente front-end.
+Você pode visitar e explorar a página através do GitHub Pages:
+https://hugohmb.github.io/dev-em-dobro_cardwars/
 
 🖼️ Prévia
 🌟 Desafios e Aprendizados
