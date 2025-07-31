@@ -37,7 +37,7 @@ CSS3: Estilização e responsividade.
 JavaScript (ES6+): Lógica de carregamento dinâmico, filtros e ordenação de dados.
 
 📁 Estrutura do Projeto
-.
+...
 ├── index.html
 ├── src/
 │   ├── css/
